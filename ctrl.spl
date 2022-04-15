@@ -1,0 +1,15 @@
+[Inputs]
+=OP[4:0]=
+=Dif[2:0]=
+[Outputs]
+N_EN
+OV_EN
+Z_EN
+C_EN
+MEM_WR
+MEM_2Reg
+Reg_Wr
+Branch
+Reg_Dest
+=ALU_OP[2:0]=
+[BiDir]

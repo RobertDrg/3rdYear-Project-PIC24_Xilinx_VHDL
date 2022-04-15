@@ -1,0 +1,1935 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {tbw2.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity file_regs
+# -- Compiling architecture behavioral of file_regs
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity progcnt
+# -- Compiling architecture behavioral of progcnt
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity pc_update
+# -- Compiling architecture behavioral of pc_update
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity mux2v4
+# -- Compiling architecture behavioral of mux2v4
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity mux2v16
+# -- Compiling architecture behavioral of mux2v16
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity datamem
+# -- Compiling architecture behavioral of datamem
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity ctrl
+# -- Compiling architecture behavioral of ctrl
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu
+# -- Compiling architecture behavioral of alu
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rom32x24
+# -- Compiling architecture behavioral of rom32x24
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity pic241
+# -- Compiling architecture behavioral of pic241
+# Model Technology ModelSim XE III vcom 6.4b Compiler 2008.11 Nov 15 2008
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vcomponents
+# -- Loading package numeric_std
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity tbw2
+# -- Compiling architecture testbench_arch of tbw2
+# vsim -lib work -t 1ps tbw2 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading unisim.vcomponents
+# Loading ieee.numeric_std(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tbw2(testbench_arch)
+# Loading work.pic241(behavioral)
+# Loading work.pc_update(behavioral)
+# Loading work.progcnt(behavioral)
+# Loading work.file_regs(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.mux2v16(behavioral)
+# Loading work.datamem(behavioral)
+# Loading work.mux2v4(behavioral)
+# Loading work.ctrl(behavioral)
+# Loading work.rom32x24(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_10
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_8
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_8
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_5
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_5
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tbw2/uut/xlxi_5
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 3  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 3  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 4  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 4  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 3  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 3  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+run 1 us
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+run 100 us
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 3990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 4730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 7970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 8970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 9770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 11930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 13730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 14810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 16970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 17970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 18770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 19850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 21990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 22730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 23810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 24890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 26970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 27770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 28850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 29930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 32810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 33890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 34970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 35970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 36770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 38930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 39990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 41810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 42890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 43970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 44970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 45770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 46850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 47930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 48990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 49730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 51890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 52970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 53970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 54770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 55850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 56930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 57990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 58730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 59810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 61970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 62970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 63770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 64850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 65930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 66990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 67730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 68810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 69890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 71970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 72770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 73850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 74930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 76730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 77810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 78890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 79970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 81770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 82850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 83930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 84990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 86810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 87890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 88970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 89970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 91850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 92930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93270 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93630 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93990 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94290 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94350 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94650 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94710 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 94730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95010 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95070 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95370 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95430 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95730 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95790 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96090 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96150 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96450 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96510 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96810 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96870 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 96890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97170 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97230 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97530 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97590 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97890 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97950 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 97970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98250 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98310 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98610 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98670 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 98970 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99030 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99330 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99390 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99690 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99750 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 99770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100050 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100110 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100410 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100470 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100770 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100830 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101130 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101190 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101210 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101490 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101550 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101570 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101850 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101910 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 101930 ns  Iteration: 5  Instance: /tbw2/uut/xlxi_6
